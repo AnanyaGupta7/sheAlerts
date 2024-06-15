@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: black;
+  box-shadow: 0 2px 4px rgba(252, 200, 209, 0.1);
+}
+
+.header h1,
+.header .logo {
+  margin: 0;
+  font-size: 1.5rem;
+  color: beige;
+}
+
+nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: beige;
+  transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+  background-color: transparent;
+  color: #B19470;
+  font-size: larger;
+}
+
+.content {
+  flex: 1;
+  font-size: xx-large;
+  padding: 1rem;
+  display: flex;
+  margin-top: -350px;
+  justify-content: center;
+  align-items: center;
+}
+
+#make {
+  display: flex;
+  flex-direction: row;
+  height: 550px;
+  width: 1280px;
+}
+
+#div1 {
+  height: 563px;
+  width: 700px;
+  background-image: url(d.jpg);
+  background-size: cover;
+}
+
+#div2 {
+  height: 563px;
+  width: 680px;
+  /* background-image: url(ddd.jpg); */
+}
+
+#div2_text {
+  margin-top: 40%;
+  margin-left: 10%;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: black;
+}
+
+.emergency-button,
+.location-button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  margin-left: 200px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin-top: 20px; /* Add some space between buttons */
+}
+
+.location-button {
+  margin-left: 220px;
+}
+
+.emergency-button:hover,
+.location-button:hover {
+  background-color: darkred;
+}
+
+.location-text,
+.location-error {
+  margin-top: 20px;
+  color: black;
+  text-align: center;
+}
+
+/* Disclaimer styles */
+.disclaimer-container {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  overflow: hidden;
+  background-color: #ffd700;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.disclaimer {
+  position: absolute;
+  white-space: nowrap;
+  animation: scrollHorizontal 30s linear infinite;
+}
+
+@keyframes scrollHorizontal {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}

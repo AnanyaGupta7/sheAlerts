@@ -1,0 +1,138 @@
+//----------------------------------------------HOME PAGE CSS AND JS FILE 
+
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import './Home.css';
+
+export default function Home() {
+  // ... (existing code remains the same)
+  const userJSON = localStorage.getItem('jwtToken');
+  const user = userJSON?userJSON:null;
+
+  const handleLogout = ()=>{
+    console.log("hyye");
+    localStorage.removeItem('jwtToken');
+    window.location.reload();
+  }
+
+
+  return (
+    <div className="container">
+      <header className="header">
+        <h1 className="logo">Click & Connect</h1> 
+        <nav>
+          <Link to="/about">About Us</Link>
+          <Link to="/contact">Contact Us</Link>
+          <Link to="/Posts">posts</Link>
+          {user?<Link to="/" onClick={handleLogout}>Logout</Link>:(
+            <>
+            <Link to="/login">Login</Link>
+            <Link to="/register">Register</Link>
+            </>
+          ) }
+          
+        
+        </nav>
+      </header>
+      <main className="content">
+      Welcome! Explore, connect, and discover something new 
+      </main>
+      <footer className="footer">
+        <p>&copy;2024 click&connect.com</p>
+      </footer>
+    </div>
+  );
+}
+
+
+
+
+
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(254, 242, 244);
+}
+
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #D14D72; /* Light gray background */
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); Subtle shadow */
+  box-shadow: 0 2px 4px rgb(252, 200, 209,0.1);
+}
+
+.header h1,
+.header .logo {
+  margin: 0;
+  font-size: 1.5rem; /* Adjust font size */
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  
+}
+
+.logo {
+  color: whitesmoke; /* Adjust logo text color */
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 1rem;
+  padding: 0.5rem 1rem; /* Add some padding for links */
+  border-radius: 5px; /* Rounded corners */
+  /* color: #666; Light text color */
+  color:white;
+  transition: all 0.2s ease-in-out; /* Smooth hover animation */
+}
+
+nav a:hover {
+  background-color: transparent; /* Light hover background */
+  color:white; /* Darker text color on hover */
+  font-size:larger;
+
+}
+
+/* Active link styling (optional) */
+/* nav a.active {
+  background-color: #d0e0f0; /* Lighter background for active link */
+  /* color: #007bff; Blue text color for active link */
+/* } */ 
+
+/* Content */
+.content {
+  flex: 1; 
+  font-size:xx-large;
+  padding: 1rem;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+/* Footer */
+.footer {
+  padding: 1rem;
+  text-align: center;
+  background-color: rgb(255, 226, 231);
+}
+
+

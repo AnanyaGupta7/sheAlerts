@@ -1,0 +1,71 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Align horizontally in center */
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: rgb(254, 242, 244); */
+  }
+  
+  /* Include the form element within the styles for .login-container */
+  .login-container form {
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #B19470; /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 300px; /* Adjust width as needed */
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 2rem; /* Adjust margin for spacing */
+    color: #76453B;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc; 
+     border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  #sub1 {
+    width: 100%;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-size: medium;
+    
+  }
+  
+  #sub1:hover { 
+    background-color: #76453B;
+  }
+  
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 1rem;
+  }

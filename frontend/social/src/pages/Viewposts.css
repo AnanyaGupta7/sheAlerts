@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-image: url(Progress.jpg); */
+  background-size:cover;
+ 
+  
+}
+
+
+
+.whole {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: beige;
+  }
+  
+  .post-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 800px; 
+    padding: 20px;
+  }
+  
+  .post-card {
+    flex: 0 0 calc(33.33% - 20px); 
+    margin-bottom: 20px;
+    background-color: #76453B; 
+    border: 2px solid #6C3428;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .post-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .post-card p {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+  }
+ 
+

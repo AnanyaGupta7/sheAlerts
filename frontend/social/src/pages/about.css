@@ -1,0 +1,110 @@
+
+.logo {
+  font-size: 24px;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+/* Animation for navigation links */
+/* Styles for the content */
+.content1 {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: beige;
+}
+
+.heading {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.postcards-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  padding: 20px;
+}
+
+.postcard {
+  min-width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  opacity: 0; /* Initially hide the postcards */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Add transition for smoother animation */
+}
+
+/* Styles for the image within the postcard */
+.postcard-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Animation */
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Initial transform state for postcards */
+.postcard:not(.fade-in) {
+  transform: translateY(20px);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.content1 .last {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.content1 .last h1 {
+  font-size: 20px;
+  color: #B19470;
+  font-style: italic;
+  animation: heartbeat 1.5s infinite;
+}
+
+/* Animation for heartbeat effect */
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
