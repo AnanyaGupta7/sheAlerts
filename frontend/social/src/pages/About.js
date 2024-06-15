@@ -69,20 +69,18 @@ function About() {
 
       <div className="content1">
         <div className="heading">
-          <h2>ABOUT SHEALERTS</h2>
-          <p>Welcome to SheAlerts, where women's safety is our top priority...
-          At SheAlerts, our mission is to create a safer environment for women.
+          <h2>ABOUT MULTIPLY</h2>
+          <p>Multiply is an online platform with easy-to-understand information on personal finance. We are a non-profit initiative by Creador Foundation and our carefully researched content is neutral and free.
           </p>
         </div>
 
         <div className="postcards-container">
           <div className="postcard">
-            <h1>Our Vision</h1>
-            <p>Empowering individuals with the knowledge and tools to navigate the world safely and confidently.</p>
-            <p>Creating a culture where everyone feels secure and supported in their daily lives.</p>
-            <p>Fostering a community dedicated to promoting safety, respect, and equality for all.</p>
-            <p>Striving for a world where every person can live without fear of harm or violence.</p>
-            <p>Working towards building a society where women's safety is prioritized and protected.</p>
+            <h1>Our Goals</h1>
+            <p>Through videos, guides, blog posts, calculators and infographics we hope to help you make sense of finance so you can make better financial decisions.</p>
+            <p>We asked Malaysians what types of personal finance questions they’d like answered. Along the way, we received excellent feedback which we incorporated into our content.</p>
+            <p>We then researched answers to those questions, reviewed our answers with experts, and tested our content through focus groups.</p>
+            <p>Through this process, we’ve developed fun and engaging easy-to-use materials. If you have feedback on how we can make our platform better, we’d love to hear from you.</p>
           </div>
 
           <div className="postcard">
@@ -90,17 +88,17 @@ function About() {
           </div>
 
           <div className="postcard">
-            <h1>What We Offer</h1>
-            <p>Safety Tips and Guides: Access a comprehensive collection of safety tips and guides...</p>
-            <p>Emergency Assistance: Find information on how to seek help during emergencies...</p>
+            <h1>Legal Stuff</h1>
+            <p>Information and tools provided by Multiply should be used only as a guide and are not intended to be your only source of information when making financial decisions</p>
+            <p>We are not licensed financial advisors.</p>
             <p>Self-Defense Training: Learn valuable self-defense techniques...</p>
-            <p>Safety Products: Discover and shop for the latest safety products...</p>
-            <p>Community Support: Connect with like-minded individuals through our community forums...</p>
+            <p>You should always seek professional advice. Click here to learn more about our terms of service and our data protection & privacy policy.</p>
+            <p>We are not licensed financial advisors. You should always seek professional advice.</p>
           </div>
         </div>
 
         <div className="last">
-          <h1>Together, let's empower women to live confidently and fearlessly.</h1>
+          <h1>Great channel to get insight on day-to-day matters such as savings, loans, investments etc. Find it super useful that this website lays out options for current and future financial planning.</h1>
         </div>
       </div>
     </>

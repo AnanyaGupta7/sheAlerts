@@ -86,7 +86,7 @@ function CreatePost() {
             <Link to="/about">About Us</Link>
             <Link to="/contact">Contact Us</Link>
             <Link to="/Posts">ShareX</Link>
-            <Link to="/safety">Safety Tips</Link>
+            <Link to="/safety">Courses</Link>
             {user ? (
               <Link to="/" onClick={handleLogout}>Logout</Link>
             ) : (
