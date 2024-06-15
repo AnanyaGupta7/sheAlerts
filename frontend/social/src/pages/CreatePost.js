@@ -106,20 +106,18 @@ function CreatePost() {
       <section className="slider-container">
         <div className="slider" style={{ transform: `translateX(-${slideIndex * 320}px)` }}>
           <div className="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/KVpxP3ZZtAc?si=nc3RzLDooMSUSQVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/7Qokrm3tjDM?si=rkDfgwRH72Jqm4Wk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
           <div className="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/FGEuDMNw0dA?si=74AT556Up2Byc0LP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/iR2SKuKDixc?si=vpqIBKRHY01_xi2-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
           <div className="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/pndPbpHLpos?si=PdUjmcDOnZbT0k9H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/UIollHRS73w?si=I0ZpcwVaa5Di8R9e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
           <div className="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/M4_8PoRQP8w?si=WZ0T3F10AIRFzgXG&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/l8DJkVSMxmo?si=qhMtM352QofIMfr_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
-          <div className="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/ce54QNDoqOY?si=pJNMX_MxTCx_O5zI&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/QXVXJBGCdm4?si=3MzI1gbteB4UM2cf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <div className="video">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/Ww1DeUSC94o?si=ukX9uQCyD63UGPQG&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
